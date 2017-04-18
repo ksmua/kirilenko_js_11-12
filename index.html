@@ -6,11 +6,13 @@
 	<link rel="stylesheet" href="css/carousel.css"/>
 	<!-- carosel.css -->
 	<script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+	<script src="js/tmpl.js"></script>
 	<script src="js/carousel.js"></script>
+	<script src="js/11-12.js"></script>
 </head>
 
 <body>
-	<div class="carousel">
+	<div class="carousel clearfix">
 		<div class="carousel-arrow-left"><span>Влево</span></div>
 		<div class="carousel-hider">
 			<ul class="carousel-list">
@@ -30,6 +32,15 @@
 		</div>
 		<div class="carousel-arrow-right"><span>Вправо</span></div>
 	</div>
+	<hr>
+	<!-- insertion -->
+	<script type="text/template" id="tmp">
+		<h1>test</h1>
+		<p><%= test %></p>
+		<p>===========</p>
+		<p><%= test2 %></p>
+	</script>
+
 </body>
 
 </html>
