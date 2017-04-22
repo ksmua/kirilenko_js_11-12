@@ -1,0 +1,26 @@
+.bold_text {
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(25, 25, 25);
+}
+
+.text__block {
+  padding-left: 30px;
+  font-size: 15px;
+  border-bottom: 1px solid rgb(195, 195, 199);
+}
+
+.text__block:nth-last-child(1){
+  border-bottom: none;
+}
+
+.text__block p, h2 {
+  padding-left: 30px;
+}
+
+.text__block ul {
+  text-decoration: none;
+  list-style-type: none;
+  margin-left: -10px;
+}
+

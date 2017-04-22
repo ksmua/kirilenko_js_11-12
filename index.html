@@ -4,6 +4,8 @@
 	<title>homework_11_12</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/carousel.css"/>
+	<link rel="stylesheet" typr="text/css" href="css/font.css">
+    <link rel="stylesheet" typr="text/css" href="css/main.css">
 	<!-- carosel.css -->
 	<script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
 	<script src="js/tmpl.js"></script>
@@ -24,48 +26,35 @@
 			  <li class="carousel-element"><img src="img/image6.jpg"><p>Описание 6</p></li>
 			  <li class="carousel-element"><img src="img/image7.jpg"><p>Описание 7</p></li>
 			  <li class="carousel-element"><img src="img/image8.jpg"><p>Описание 8</p></li>
-			  <li class="carousel-element"><img src="img/image9.jpg"><p>Описание 9</p></li>
-			  <li class="carousel-element"><img src="img/image10.jpg"><p>Описание 10</p></li>
-			  <li class="carousel-element"><img src="img/image3.jpg"><p>Описание 11</p></li>
-			  <li class="carousel-element"><img src="img/image4.jpg"><p>Описание 12</p></li>
 			</ul>
 		</div>
 		<div class="carousel-arrow-right"><span>Вправо</span></div>
 	</div>
 	<hr>
-	<!-- insertion -->
+	
+	<!-- INSERTION -->
 	<script type="text/template" id="tmp">
-		<h1>test</h1>
-		<p><%= test %></p>
-		<p>===========</p>
-		<p><%= test2 %></p>
-
-<!-- ==================================== -->
-	<div class="text_block">
-        <div class="bold_text">Хочу вивчати фронтенд томущо:</div>
-        	<ul>
-                <li><span>"Я в АйТи хочу пойти</span></li>
-                <li><span>Я в АйТи хочу пойти</span></li>
-                <li><span>Может к тридцати пяти</span></li>
-        		<li><span>Я тогда войду в АйТи"(с)</span></li>
+		<h2>КИРИЛЕНКО СЕРГІЙ</h2>
+		<div class="text__block">
+        	<h3 class="bold_text">Хочу вивчати фронтенд томущо:</h3>
+    		<ul class="">
+                <li><span><%= li1 %></span></li>
+                <li><span><%= li2 %></span></li>
+                <li><span><%= li3 %></span></li>
+        		<li><span><%= li4 %></span></li>
        		</ul>
+    	</div>
+    	<div class="text__block">
+        	<h3 class="bold_text">Мій контактний телефон:</h3>
+        	<p><%= phone %></p>
+        	<h3 class="bold_text">Мій профіль у Фейсбук:</h3>
+        	<p><a href= <%= href %>>Профіль</a></p>
         </div>
-        	<div class="text_block">
-        		<div class="bold_text">Мій контактний телефон:</div>
-        		<p>+380962139157</p>
-        		<div class="bold_text">Мій профіль у Фейсбук:</div>
-        		<p><a href="https://www.facebook.com/profile.php?id=100002572048895">Профіль</a></p>
-        </div>
-        <!--=======FIDBACK SECTION=======-->
-        <div class="text_block">
-        	<div class="bold_text">Мій фідбек</div>
-        	<p>Якщо потрібно, можу працювати, можу "не працювати"(але подвійна оплата).</p>
-        </div>
-    </div>
-<!-- ==================================== -->
-
-	</script>
-
+       	<div class="text__block">
+    		<h3 class="bold_text">Мій фідбек:</h3>
+    		<p><%= feedback %></p>
+   		</div>
+   	</script>
 </body>
 
 </html>
